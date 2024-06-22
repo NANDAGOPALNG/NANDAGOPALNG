@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am an engineering student of AIML(CSE) Branch<br>
+I am an engineering student of AIML(CSE) Branch and an Machine Learning Enthusiast<br>
 
 
 ## 🌐 Socials:
