@@ -11,12 +11,12 @@ I am an engineering student of AIML(CSE) Branch and an Machine Learning Enthusia
 ![](https://github-readme-stats.vercel.app/api?username=NANDAGOPALNG&theme=radical&hide_border=true&include_all_commits=false&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=NANDAGOPALNG&theme=radical&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=NANDAGOPALNG&theme=radical&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
-## GSSOC(24) Badges 🪶
 
 ---
 [![](https://visitcount.itsvg.in/api?id=NANDAGOPALNG&icon=0&color=9)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## GSSOC(24) Badges 🪶
 <div style='display:flex; align-items:center; gap: 10px;' align='center'>
 <img src="https://raw.githubusercontent.com/girlscript/gssoc-website-new/main/public/badges/postman.png" width="100px" height="100px" />
   <img src="https://github.com/girlscript/gssoc-website-new/blob/main/public/badges/1.png" width="100px" height="100px" />
