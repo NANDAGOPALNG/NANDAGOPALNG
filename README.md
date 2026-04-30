@@ -1,5 +1,5 @@
 # 💫 About Me:
-AI/ML Engineer specializing in NLP and Large Language Models, currently pursuing a degree in CSE (AI & ML). I have hands-on experience building and fine-tuning production-grade AI systems, including LLaMA-based applications, semantic search pipelines, and computer vision models with 93–95% accuracy.<br><br>I am currently contributing to full-stack AI applications GenAI-driven solutions and Building Agentic Solutions for real world poblems, while also actively participating in open-source programs like Hacktoberfest and Social Winter of Code. My work focuses on developing scalable ML systems, optimizing model performance, and applying AI to real-world problems.
+AI/ML Engineer specializing in NLP and Large Language Models, currently pursuing a degree in CSE (AI & ML). I have hands-on experience building and fine-tuning production-grade AI systems, including LLaMA-based applications, semantic search pipelines, and computer vision models with 93–95% accuracy.<br><br>I am currently contributing to full-stack AI applications, GenAI-driven solutions and Building Agentic Solutions for real world poblems, while also actively participating in open-source programs like Hacktoberfest and Social Winter of Code. My work focuses on developing scalable ML systems, optimizing model performance, and applying AI to real-world problems.
 
 
 ## 🌐 Socials:
