@@ -35,4 +35,6 @@ AI/ML Engineer specializing in NLP and Large Language Models, currently pursuing
 <img src="https://github.com/GSSoC24/Postman-Challenge/blob/main/docs/assets/5.png" width="100px" height="100px" />
 </div>
 
-
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=nandagopaln&"  />
+</div>
