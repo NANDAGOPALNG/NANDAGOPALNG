@@ -24,17 +24,6 @@ AI/ML Engineer specializing in NLP and Large Language Models, currently pursuing
 ---
 [![](https://visitcount.itsvg.in/api?id=nandagopalng&icon=0&color=0)](https://visitcount.itsvg.in)
 
-
-## GSSOC(24) Badges 🪶
-<div style='display:flex; align-items:center; gap: 10px;' align='left'>
-<img src="https://github.com/GSSoC24/Postman-Challenge/blob/main/docs/assets/Postman%20White.png" width="100px" height="100px" />
-<img src="https://github.com/GSSoC24/Postman-Challenge/blob/main/docs/assets/1.png" width="100px" height="100px" />
-<img src="https://github.com/GSSoC24/Postman-Challenge/blob/main/docs/assets/2.png" width="100px" height="100px" />
-<img src="https://github.com/GSSoC24/Postman-Challenge/blob/main/docs/assets/3.png" width="100px" height="100px" />
-<img src="https://github.com/GSSoC24/Postman-Challenge/blob/main/docs/assets/4.png" width="100px" height="100px" />
-<img src="https://github.com/GSSoC24/Postman-Challenge/blob/main/docs/assets/5.png" width="100px" height="100px" />
-</div>
-
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=nandagopaln&"  />
 </div>
