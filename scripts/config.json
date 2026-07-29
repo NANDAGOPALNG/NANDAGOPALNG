@@ -1,0 +1,10 @@
+{
+  "categories": [
+    { "label": "LANGUAGES", "items": ["Python", "TypeScript", "JavaScript"] },
+    { "label": "AI & AGENTIC", "items": ["PyTorch", "LangGraph", "MCP", "RAG Pipelines", "HuggingFace", "Groq API", "Gemini", "Llama 3"] },
+    { "label": "BACKEND", "items": ["FastAPI", "SQLAlchemy", "Alembic", "Next.js", "React"] },
+    { "label": "INFRASTRUCTURE", "items": ["Docker", "Vercel", "Render", "n8n"] },
+    { "label": "DATABASES", "items": ["PostgreSQL", "SQLite", "Qdrant"] },
+    { "label": "DEVELOPER TOOLS", "items": ["LangSmith", "Ollama", "Git"] }
+  ]
+}
