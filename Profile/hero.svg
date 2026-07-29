@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 960" width="900" height="960"
+     font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" role="img"
+     aria-label="Nanda Gopal D. — agent orchestration console">
+  <defs>
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="840" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="flowV" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    text { font-size: 14px; }
+    .dim   { fill: #56637a; }
+    .mut   { fill: #8592ab; }
+    .txt   { fill: #cbd5e1; }
+    .bright{ fill: #e7edf6; }
+    .cy    { fill: #22d3ee; }
+    .bl    { fill: #60a5fa; }
+    .ok    { fill: #22d3ee; }
+    .amber { fill: #7dd3fc; }
+    .lbl   { fill: #22d3ee; font-size: 11.5px; letter-spacing: 1.5px; }
+
+    .fade { opacity: 0; }
+    .type { clip-path: inset(0 100% 0 0); }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes typeIn { to { clip-path: inset(0 0 0 0); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes dashFlow { to { stroke-dashoffset: -40; } }
+    @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes popIn { from { opacity: 0; transform: scale(.85); } to { opacity: 1; transform: scale(1); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .fade, .type, .cur, .flowline, .node-pulse, .logo-cell { animation: none !important; opacity: 1 !important; clip-path: inset(0 0 0 0) !important; transform: none !important; }
+    }
+
+    .flowline { stroke-dasharray: 6 6; animation: dashFlow 1.4s linear infinite; }
+    .node-pulse { animation: pulse 2.4s ease-in-out infinite; }
+    .cur { animation: blink 1s step-end infinite; }
+    .logo-cell { animation: popIn .3s ease both; transform-origin: center; transform-box: fill-box; }
+  </style>
+
+  <!-- window -->
+  <rect x="20" y="16" width="860" height="914" rx="14" fill="#05070a" stroke="#182233"/>
+  <path d="M20 30 A14 14 0 0 1 34 16 H846 A14 14 0 0 1 860 30 V58 H20 Z" fill="#0a0f1a"/>
+  <line x1="20" y1="58" x2="860" y2="58" stroke="#182233"/>
+  <circle cx="46" cy="37" r="6" fill="#3a4557"/>
+  <circle cx="66" cy="37" r="6" fill="#3a4557"/>
+  <circle cx="86" cy="37" r="6" fill="#3a4557"/>
+  <text x="450" y="42" text-anchor="middle" class="dim" font-size="12.5">orchestrix://runtime — nanda@agentic-systems</text>
+
+  <rect x="34" y="72" width="832" height="840" fill="url(#glow)" opacity="0.4"/>
+
+  <!-- boot log -->
+  <g class="fade" style="animation: fadeIn .2s ease .05s forwards">
+    <text x="52" y="98"><tspan class="dim">[ </tspan><tspan class="ok">OK</tspan><tspan class="dim"> ] </tspan><tspan class="mut">runtime.init() — loading agent registry</tspan></text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease .18s forwards">
+    <text x="52" y="120"><tspan class="dim">[ </tspan><tspan class="ok">OK</tspan><tspan class="dim"> ] </tspan><tspan class="mut">context.mount() — shared memory attached</tspan></text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease .31s forwards">
+    <text x="52" y="142"><tspan class="dim">[ </tspan><tspan class="ok">OK</tspan><tspan class="dim"> ] </tspan><tspan class="mut">tools.register() — 4 tools bound to graph</tspan></text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease .44s forwards">
+    <text x="52" y="164"><tspan class="dim">[ </tspan><tspan class="ok">OK</tspan><tspan class="dim"> ] </tspan><tspan class="mut">safety.gate() — human-in-the-loop checkpoint armed</tspan></text>
+  </g>
+
+  <!-- identity block: pixel monogram + neofetch-style info -->
+  <g class="fade" style="animation: fadeIn .2s ease .55s forwards">
+    <g transform="translate(90,182)">
+      <rect x="0" y="0" width="7" height="7" fill="#22d3ee"/>
+      <rect x="8" y="0" width="7" height="7" fill="#22d3ee"/>
+      <rect x="16" y="0" width="7" height="7" fill="#22d3ee"/>
+      <rect x="24" y="0" width="7" height="7" fill="#22d3ee"/>
+      <rect x="88" y="0" width="7" height="7" fill="#22d3ee"/>
+      <rect x="96" y="0" width="7" height="7" fill="#22d3ee"/>
+      <rect x="0" y="8" width="7" height="7" fill="#24cdef"/>
+      <rect x="8" y="8" width="7" height="7" fill="#24cdef"/>
+      <rect x="16" y="8" width="7" height="7" fill="#24cdef"/>
+      <rect x="24" y="8" width="7" height="7" fill="#24cdef"/>
+      <rect x="88" y="8" width="7" height="7" fill="#24cdef"/>
+      <rect x="96" y="8" width="7" height="7" fill="#24cdef"/>
+      <rect x="0" y="16" width="7" height="7" fill="#26c7ef"/>
+      <rect x="8" y="16" width="7" height="7" fill="#26c7ef"/>
+      <rect x="24" y="16" width="7" height="7" fill="#26c7ef"/>
+      <rect x="32" y="16" width="7" height="7" fill="#26c7ef"/>
+      <rect x="88" y="16" width="7" height="7" fill="#26c7ef"/>
+      <rect x="96" y="16" width="7" height="7" fill="#26c7ef"/>
+      <rect x="0" y="24" width="7" height="7" fill="#27c2f0"/>
+      <rect x="8" y="24" width="7" height="7" fill="#27c2f0"/>
+      <rect x="24" y="24" width="7" height="7" fill="#27c2f0"/>
+      <rect x="32" y="24" width="7" height="7" fill="#27c2f0"/>
+      <rect x="88" y="24" width="7" height="7" fill="#27c2f0"/>
+      <rect x="96" y="24" width="7" height="7" fill="#27c2f0"/>
+      <rect x="0" y="32" width="7" height="7" fill="#29bcf0"/>
+      <rect x="8" y="32" width="7" height="7" fill="#29bcf0"/>
+      <rect x="32" y="32" width="7" height="7" fill="#29bcf0"/>
+      <rect x="40" y="32" width="7" height="7" fill="#29bcf0"/>
+      <rect x="88" y="32" width="7" height="7" fill="#29bcf0"/>
+      <rect x="96" y="32" width="7" height="7" fill="#29bcf0"/>
+      <rect x="0" y="40" width="7" height="7" fill="#2bb6f1"/>
+      <rect x="8" y="40" width="7" height="7" fill="#2bb6f1"/>
+      <rect x="40" y="40" width="7" height="7" fill="#2bb6f1"/>
+      <rect x="48" y="40" width="7" height="7" fill="#2bb6f1"/>
+      <rect x="88" y="40" width="7" height="7" fill="#2bb6f1"/>
+      <rect x="96" y="40" width="7" height="7" fill="#2bb6f1"/>
+      <rect x="0" y="48" width="7" height="7" fill="#2db0f1"/>
+      <rect x="8" y="48" width="7" height="7" fill="#2db0f1"/>
+      <rect x="40" y="48" width="7" height="7" fill="#2db0f1"/>
+      <rect x="48" y="48" width="7" height="7" fill="#2db0f1"/>
+      <rect x="88" y="48" width="7" height="7" fill="#2db0f1"/>
+      <rect x="96" y="48" width="7" height="7" fill="#2db0f1"/>
+      <rect x="0" y="56" width="7" height="7" fill="#2eaaf2"/>
+      <rect x="8" y="56" width="7" height="7" fill="#2eaaf2"/>
+      <rect x="48" y="56" width="7" height="7" fill="#2eaaf2"/>
+      <rect x="56" y="56" width="7" height="7" fill="#2eaaf2"/>
+      <rect x="88" y="56" width="7" height="7" fill="#2eaaf2"/>
+      <rect x="96" y="56" width="7" height="7" fill="#2eaaf2"/>
+      <rect x="0" y="64" width="7" height="7" fill="#30a5f3"/>
+      <rect x="8" y="64" width="7" height="7" fill="#30a5f3"/>
+      <rect x="56" y="64" width="7" height="7" fill="#30a5f3"/>
+      <rect x="64" y="64" width="7" height="7" fill="#30a5f3"/>
+      <rect x="88" y="64" width="7" height="7" fill="#30a5f3"/>
+      <rect x="96" y="64" width="7" height="7" fill="#30a5f3"/>
+      <rect x="0" y="72" width="7" height="7" fill="#329ff3"/>
+      <rect x="8" y="72" width="7" height="7" fill="#329ff3"/>
+      <rect x="56" y="72" width="7" height="7" fill="#329ff3"/>
+      <rect x="64" y="72" width="7" height="7" fill="#329ff3"/>
+      <rect x="88" y="72" width="7" height="7" fill="#329ff3"/>
+      <rect x="96" y="72" width="7" height="7" fill="#329ff3"/>
+      <rect x="0" y="80" width="7" height="7" fill="#3499f4"/>
+      <rect x="8" y="80" width="7" height="7" fill="#3499f4"/>
+      <rect x="64" y="80" width="7" height="7" fill="#3499f4"/>
+      <rect x="72" y="80" width="7" height="7" fill="#3499f4"/>
+      <rect x="88" y="80" width="7" height="7" fill="#3499f4"/>
+      <rect x="96" y="80" width="7" height="7" fill="#3499f4"/>
+      <rect x="0" y="88" width="7" height="7" fill="#3693f4"/>
+      <rect x="8" y="88" width="7" height="7" fill="#3693f4"/>
+      <rect x="72" y="88" width="7" height="7" fill="#3693f4"/>
+      <rect x="80" y="88" width="7" height="7" fill="#3693f4"/>
+      <rect x="88" y="88" width="7" height="7" fill="#3693f4"/>
+      <rect x="96" y="88" width="7" height="7" fill="#3693f4"/>
+      <rect x="0" y="96" width="7" height="7" fill="#378ef5"/>
+      <rect x="8" y="96" width="7" height="7" fill="#378ef5"/>
+      <rect x="72" y="96" width="7" height="7" fill="#378ef5"/>
+      <rect x="80" y="96" width="7" height="7" fill="#378ef5"/>
+      <rect x="88" y="96" width="7" height="7" fill="#378ef5"/>
+      <rect x="96" y="96" width="7" height="7" fill="#378ef5"/>
+      <rect x="0" y="104" width="7" height="7" fill="#3988f5"/>
+      <rect x="8" y="104" width="7" height="7" fill="#3988f5"/>
+      <rect x="80" y="104" width="7" height="7" fill="#3988f5"/>
+      <rect x="88" y="104" width="7" height="7" fill="#3988f5"/>
+      <rect x="96" y="104" width="7" height="7" fill="#3988f5"/>
+      <rect x="0" y="112" width="7" height="7" fill="#3b82f6"/>
+      <rect x="8" y="112" width="7" height="7" fill="#3b82f6"/>
+      <rect x="88" y="112" width="7" height="7" fill="#3b82f6"/>
+      <rect x="96" y="112" width="7" height="7" fill="#3b82f6"/>
+    </g>
+  </g>
+
+  <g class="fade" style="animation: fadeIn .25s ease .95s forwards">
+    <text x="220" y="204" font-size="25"><tspan class="bright">nanda</tspan><tspan class="dim">@</tspan><tspan fill="url(#flow)">agentic-systems</tspan></text>
+  </g>
+  <line x1="220" y1="216" x2="470" y2="216" stroke="#233046"/>
+  <g class="fade" style="animation: fadeIn .2s ease 1.08s forwards">
+    <text x="220" y="240"><tspan class="lbl">ROLE</tspan><tspan x="316" class="txt" font-size="13">AI Engineer</tspan></text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease 1.16s forwards">
+    <text x="220" y="266"><tspan class="lbl">FOCUS</tspan><tspan x="316" class="txt" font-size="13">Agentic systems · LLM infra</tspan></text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease 1.24s forwards">
+    <text x="220" y="292"><tspan class="lbl">BUILDING</tspan><tspan x="316" class="txt" font-size="13">Lumora · Orchestrix · Sentinel-SRE</tspan></text>
+  </g>
+
+  <line x1="52" y1="344" x2="848" y2="344" stroke="#182233"/>
+
+  <!-- status query -->
+  <g class="type" style="animation: typeIn .35s steps(28,start) 1.38s forwards">
+    <text x="52" y="372" font-size="15"><tspan class="cy">nanda</tspan><tspan class="dim">:~ (main) $</tspan><tspan class="txt"> orchestrix status --agents</tspan></text>
+  </g>
+
+  <g class="fade" style="animation: fadeIn .2s ease 1.8s forwards">
+    <text x="52" y="400" font-size="12.5"><tspan class="dim">  NAME</tspan><tspan class="dim" x="250">STACK</tspan><tspan class="dim" x="560">STATE</tspan></text>
+  </g>
+  <line x1="52" y1="410" x2="848" y2="410" stroke="#131b28"/>
+
+  <g class="fade" style="animation: fadeIn .2s ease 1.92s forwards">
+    <circle cx="58" cy="433" r="3.5" class="ok node-pulse"/>
+    <text x="70" y="437"><tspan class="txt">lumora</tspan></text>
+    <text x="250" y="437" class="mut" font-size="13">rag · fastapi · qdrant · postgres</text>
+    <text x="560" y="437" class="cy" font-size="13">building — daily commits</text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease 2.02s forwards">
+    <circle cx="58" cy="463" r="3.5" class="ok node-pulse"/>
+    <text x="70" y="467"><tspan class="txt">orchestrix</tspan></text>
+    <text x="250" y="467" class="mut" font-size="13">multi-agent · shared context · eval loop</text>
+    <text x="560" y="467" class="cy" font-size="13">shipped — flagship</text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease 2.12s forwards">
+    <circle cx="58" cy="493" r="3.5" class="ok node-pulse"/>
+    <text x="70" y="497"><tspan class="txt">sentinel-sre</tspan></text>
+    <text x="250" y="497" class="mut" font-size="13">langgraph · fastmcp · self-correction loop</text>
+    <text x="560" y="497" class="cy" font-size="13">shipped — 9.3x efficiency</text>
+  </g>
+
+  <line x1="52" y1="524" x2="848" y2="524" stroke="#182233"/>
+
+  <!-- cycle query -->
+  <g class="type" style="animation: typeIn .35s steps(22,start) 2.28s forwards">
+    <text x="52" y="552" font-size="15"><tspan class="cy">nanda</tspan><tspan class="dim">:~ (main) $</tspan><tspan class="txt"> orchestrix trace --cycle</tspan></text>
+  </g>
+
+  <!-- agentic loop diagram (signature element) -->
+  <g class="fade" style="animation: fadeIn .4s ease 2.65s forwards">
+    <g transform="translate(450,750)">
+      <!-- connecting loop -->
+      <path d="M -150 0 A 150 150 0 0 1 0 -150" fill="none" stroke="url(#flow)" stroke-width="2" class="flowline" opacity="0.85"/>
+      <path d="M 0 -150 A 150 150 0 0 1 150 0" fill="none" stroke="url(#flow)" stroke-width="2" class="flowline" opacity="0.85"/>
+      <path d="M 150 0 A 150 150 0 0 1 0 150" fill="none" stroke="url(#flow)" stroke-width="2" class="flowline" opacity="0.85"/>
+      <path d="M 0 150 A 150 150 0 0 1 -150 0" fill="none" stroke="url(#flow)" stroke-width="2" class="flowline" opacity="0.85"/>
+
+      <!-- nodes -->
+      <g>
+        <circle cx="0" cy="-150" r="34" fill="#0a0f1a" stroke="#22d3ee" stroke-width="1.5"/>
+        <text x="0" y="-146" text-anchor="middle" class="txt" font-size="12.5">PLAN</text>
+      </g>
+      <g>
+        <circle cx="150" cy="0" r="34" fill="#0a0f1a" stroke="#38bdf8" stroke-width="1.5"/>
+        <text x="150" y="4" text-anchor="middle" class="txt" font-size="12.5">ACT</text>
+      </g>
+      <g>
+        <circle cx="0" cy="150" r="34" fill="#0a0f1a" stroke="#3b82f6" stroke-width="1.5"/>
+        <text x="0" y="154" text-anchor="middle" class="txt" font-size="11.5">OBSERVE</text>
+      </g>
+      <g>
+        <circle cx="-150" cy="0" r="34" fill="#0a0f1a" stroke="#60a5fa" stroke-width="1.5"/>
+        <text x="-150" y="4" text-anchor="middle" class="txt" font-size="11.5">CRITIQUE</text>
+      </g>
+
+      <text x="0" y="6" text-anchor="middle" class="dim" font-size="11">agentic</text>
+      <text x="0" y="20" text-anchor="middle" class="dim" font-size="11">loop</text>
+    </g>
+  </g>
+
+  <g class="fade" style="animation: fadeIn .3s ease 3s forwards">
+    <text x="450" y="926" text-anchor="middle" class="dim" font-size="12.5">CSE (AI &amp; ML) · Maharaja Institute of Technology, Mysore · 2023–2027</text>
+  </g>
+</svg>
