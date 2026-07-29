@@ -12,11 +12,27 @@ To add a technology: add it to the relevant category array in `config.json`
 and re-run the script. To add a whole new category, add a new
 `{ "label": ..., "items": [...] }` entry — row layout shifts automatically.
 
+## Pixel-art monogram (in hero.svg)
+
+The blocky "N" beside the identity line in `profile/hero.svg` is generated
+by `scripts/generate-monogram.py`:
+
+```bash
+python3 scripts/generate-monogram.py
+```
+
+It prints an SVG `<rect>` fragment — paste it into the
+`<g transform="translate(90,182)">` block in `profile/hero.svg`, replacing
+what's there. Edit `C1`/`C2` at the top of the script to change the color
+ramp, or the `build_grid()` logic to draw a different letter/shape.
+
 ## Why `hero.svg`, `currently.svg`, and `footer.svg` aren't generated
 
 They're structurally one-off (a boot log, a status list, a closing rule) —
 scripting their layout would add indirection without adding flexibility.
 They're plain hand-edited SVG; open them directly to change copy or timing.
+The one exception is the pixel monogram inside hero.svg, which has its own
+small generator above since redrawing pixel grids by hand is tedious.
 
 ## Why there's no `/fonts` folder
 
