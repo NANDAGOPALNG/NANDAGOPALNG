@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300"
+     font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" role="img"
+     aria-label="Currently building">
+  <defs>
+    <linearGradient id="coreGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00D26A"/>
+      <stop offset="1" stop-color="#6EE7B7"/>
+    </linearGradient>
+    <symbol id="core" viewBox="-60 -60 120 120">
+      <polygon points="0,-54 46.8,-27 46.8,27 0,54 -46.8,27 -46.8,-27" fill="none" stroke="url(#coreGrad)" stroke-width="6"/>
+      <circle cx="0" cy="0" r="16" fill="#00D26A"/>
+    </symbol>
+  </defs>
+  <style>
+    text { font-size: 14px; }
+    .dim { fill: #9CA3AF; opacity: 0.75; }
+    .txt { fill: #F5F5F5; }
+    .accent { fill: #00D26A; }
+    .fade { opacity: 0; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .fade, .pulse { animation: none !important; opacity: 1 !important; } }
+    .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+  </style>
+
+  <rect x="20" y="16" width="860" height="268" rx="16" fill="#090909" stroke="#222222"/>
+  <path d="M20 32 A16 16 0 0 1 36 16 H844 A16 16 0 0 1 860 32 V58 H20 Z" fill="#111111"/>
+  <line x1="20" y1="58" x2="860" y2="58" stroke="#222222"/>
+  <circle cx="46" cy="37" r="6" fill="#2a2a2a"/>
+  <circle cx="66" cy="37" r="6" fill="#2a2a2a"/>
+  <circle cx="86" cy="37" r="6" fill="#2a2a2a"/>
+  <use href="#core" x="806" y="29" width="16" height="16"/>
+  <text x="450" y="42" text-anchor="middle" class="dim" font-size="12.5">focus.now()</text>
+
+  <g class="fade" style="animation: fadeIn .2s ease .05s forwards">
+    <use href="#core" x="52" y="90" width="16" height="16" class="pulse"/>
+    <text x="76" y="102"><tspan class="txt">Lumora</tspan><tspan class="dim"> — enterprise RAG platform, daily commits, currently on the data layer</tspan></text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease .18s forwards">
+    <use href="#core" x="52" y="130" width="16" height="16" class="pulse"/>
+    <text x="76" y="142"><tspan class="txt">Agentic orchestration</tspan><tspan class="dim"> — multi-agent frameworks, shared context, eval loops</tspan></text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease .31s forwards">
+    <use href="#core" x="52" y="170" width="16" height="16" class="pulse"/>
+    <text x="76" y="182"><tspan class="txt">MCP &amp; tool-calling infra</tspan><tspan class="dim"> — connecting agents to real systems safely</tspan></text>
+  </g>
+  <g class="fade" style="animation: fadeIn .2s ease .44s forwards">
+    <use href="#core" x="52" y="210" width="16" height="16" class="pulse"/>
+    <text x="76" y="222"><tspan class="txt">Production LLM applications</tspan><tspan class="dim"> — from prototype to something that survives real traffic</tspan></text>
+  </g>
+
+  <rect x="52" y="252" width="796" height="1.5" fill="#222222"/>
+  <text x="450" y="276" text-anchor="middle" class="dim" font-size="12">no tutorials, no boilerplate — this is what's actually running</text>
+</svg>

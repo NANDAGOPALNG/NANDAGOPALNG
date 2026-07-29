@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 578" width="900" height="578"
+     font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" role="img"
+     aria-label="Tech stack">
+  <defs>
+    <linearGradient id="flow2" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="840" y2="0">
+      <stop offset="0" stop-color="#00D26A"/>
+      <stop offset="1" stop-color="#6EE7B7"/>
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00D26A"/>
+      <stop offset="1" stop-color="#6EE7B7"/>
+    </linearGradient>
+    <symbol id="core" viewBox="-60 -60 120 120">
+      <polygon points="0,-54 46.8,-27 46.8,27 0,54 -46.8,27 -46.8,-27" fill="none" stroke="url(#coreGrad)" stroke-width="6"/>
+      <circle cx="0" cy="0" r="16" fill="#00D26A"/>
+    </symbol>
+  </defs>
+  <style>
+    text { font-size: 13.5px; }
+    .dim { fill: #9CA3AF; }
+    .lbl { fill: #00D26A; font-size: 11.5px; letter-spacing: 2px; }
+    .chip-txt { fill: #F5F5F5; }
+    .fade { opacity: 0; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none !important; opacity: 1 !important; } }
+    .chip { fill: #111111; stroke: #222222; }
+  </style>
+
+  <rect x="20" y="16" width="860" height="546" rx="16" fill="#090909" stroke="#222222"/>
+  <path d="M20 30 A16 16 0 0 1 34 16 H846 A16 16 0 0 1 860 30 V58 H20 Z" fill="#111111"/>
+  <line x1="20" y1="58" x2="860" y2="58" stroke="#222222"/>
+  <circle cx="46" cy="37" r="6" fill="#2a2a2a"/>
+  <circle cx="66" cy="37" r="6" fill="#2a2a2a"/>
+  <circle cx="86" cy="37" r="6" fill="#2a2a2a"/>
+  <use href="#core" x="840" y="29" width="16" height="16"/>
+  <text x="450" y="42" text-anchor="middle" class="dim" font-size="12.5">tech_stack.map()</text>
+
+  <g class="fade" style="animation: fadeIn .25s ease 0.05s forwards">
+    <text x="52" y="98" class="lbl">LANGUAGES</text>
+    <g transform="translate(52,110)">
+      <rect class="chip" x="0" width="69" height="30" rx="8"/><text x="34.5" y="20" text-anchor="middle" class="chip-txt">Python</text>
+      <rect class="chip" x="79" width="98" height="30" rx="8"/><text x="128" y="20" text-anchor="middle" class="chip-txt">TypeScript</text>
+      <rect class="chip" x="187" width="98" height="30" rx="8"/><text x="236" y="20" text-anchor="middle" class="chip-txt">JavaScript</text>
+    </g>
+  </g>
+
+  <g class="fade" style="animation: fadeIn .25s ease 0.16s forwards">
+    <text x="52" y="168" class="lbl">AI &amp; AGENTIC</text>
+    <g transform="translate(52,180)">
+      <rect class="chip" x="0" width="76" height="30" rx="8"/><text x="38" y="20" text-anchor="middle" class="chip-txt">PyTorch</text>
+      <rect class="chip" x="86" width="91" height="30" rx="8"/><text x="131.5" y="20" text-anchor="middle" class="chip-txt">LangGraph</text>
+      <rect class="chip" x="187" width="48" height="30" rx="8"/><text x="211" y="20" text-anchor="middle" class="chip-txt">MCP</text>
+      <rect class="chip" x="245" width="120" height="30" rx="8"/><text x="305" y="20" text-anchor="middle" class="chip-txt">RAG Pipelines</text>
+      <rect class="chip" x="375" width="105" height="30" rx="8"/><text x="427.5" y="20" text-anchor="middle" class="chip-txt">HuggingFace</text>
+      <rect class="chip" x="490" width="84" height="30" rx="8"/><text x="532" y="20" text-anchor="middle" class="chip-txt">Groq API</text>
+      <rect class="chip" x="584" width="69" height="30" rx="8"/><text x="618.5" y="20" text-anchor="middle" class="chip-txt">Gemini</text>
+      <rect class="chip" x="663" width="76" height="30" rx="8"/><text x="701" y="20" text-anchor="middle" class="chip-txt">Llama 3</text>
+    </g>
+  </g>
+
+  <g class="fade" style="animation: fadeIn .25s ease 0.27s forwards">
+    <text x="52" y="238" class="lbl">BACKEND</text>
+    <g transform="translate(52,250)">
+      <rect class="chip" x="0" width="76" height="30" rx="8"/><text x="38" y="20" text-anchor="middle" class="chip-txt">FastAPI</text>
+      <rect class="chip" x="86" width="98" height="30" rx="8"/><text x="135" y="20" text-anchor="middle" class="chip-txt">SQLAlchemy</text>
+      <rect class="chip" x="194" width="76" height="30" rx="8"/><text x="232" y="20" text-anchor="middle" class="chip-txt">Alembic</text>
+      <rect class="chip" x="280" width="76" height="30" rx="8"/><text x="318" y="20" text-anchor="middle" class="chip-txt">Next.js</text>
+      <rect class="chip" x="366" width="62" height="30" rx="8"/><text x="397" y="20" text-anchor="middle" class="chip-txt">React</text>
+    </g>
+  </g>
+
+  <g class="fade" style="animation: fadeIn .25s ease 0.38s forwards">
+    <text x="52" y="308" class="lbl">INFRASTRUCTURE</text>
+    <g transform="translate(52,320)">
+      <rect class="chip" x="0" width="69" height="30" rx="8"/><text x="34.5" y="20" text-anchor="middle" class="chip-txt">Docker</text>
+      <rect class="chip" x="79" width="69" height="30" rx="8"/><text x="113.5" y="20" text-anchor="middle" class="chip-txt">Vercel</text>
+      <rect class="chip" x="158" width="69" height="30" rx="8"/><text x="192.5" y="20" text-anchor="middle" class="chip-txt">Render</text>
+      <rect class="chip" x="237" width="48" height="30" rx="8"/><text x="261" y="20" text-anchor="middle" class="chip-txt">n8n</text>
+    </g>
+  </g>
+
+  <g class="fade" style="animation: fadeIn .25s ease 0.49s forwards">
+    <text x="52" y="378" class="lbl">DATABASES</text>
+    <g transform="translate(52,390)">
+      <rect class="chip" x="0" width="98" height="30" rx="8"/><text x="49" y="20" text-anchor="middle" class="chip-txt">PostgreSQL</text>
+      <rect class="chip" x="108" width="69" height="30" rx="8"/><text x="142.5" y="20" text-anchor="middle" class="chip-txt">SQLite</text>
+      <rect class="chip" x="187" width="69" height="30" rx="8"/><text x="221.5" y="20" text-anchor="middle" class="chip-txt">Qdrant</text>
+    </g>
+  </g>
+
+  <g class="fade" style="animation: fadeIn .25s ease 0.60s forwards">
+    <text x="52" y="448" class="lbl">DEVELOPER TOOLS</text>
+    <g transform="translate(52,460)">
+      <rect class="chip" x="0" width="91" height="30" rx="8"/><text x="45.5" y="20" text-anchor="middle" class="chip-txt">LangSmith</text>
+      <rect class="chip" x="101" width="69" height="30" rx="8"/><text x="135.5" y="20" text-anchor="middle" class="chip-txt">Ollama</text>
+      <rect class="chip" x="180" width="48" height="30" rx="8"/><text x="204" y="20" text-anchor="middle" class="chip-txt">Git</text>
+    </g>
+  </g>
+
+  <rect x="52" y="520" width="796" height="2" fill="url(#flow2)" opacity="0.6"/>
+</svg>
