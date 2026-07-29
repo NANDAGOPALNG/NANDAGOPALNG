@@ -1,7 +1,7 @@
 <!-- ─────────────────────────  HERO  ───────────────────────── -->
 
 <p align="center">
-  <img src="./profile/hero.svg" alt="nandaOS://kernel — AI infrastructure runtime" width="900" />
+  <img src="./Profile/hero.svg" alt="nandaOS://kernel — AI infrastructure runtime" width="900" />
 </p>
 
 <!-- ─────────────────────────  ABOUT  ───────────────────────── -->
@@ -13,13 +13,13 @@ My focus is reliability: evaluation loops that catch bad outputs, self-correctio
 <!-- ─────────────────────────  CURRENTLY BUILDING  ───────────────────────── -->
 
 <p align="center">
-  <img src="./profile/currently.svg" alt="Currently building" width="900" />
+  <img src="./Profile/currently.svg" alt="Currently building" width="900" />
 </p>
 
 <!-- ─────────────────────────  TECH STACK  ───────────────────────── -->
 
 <p align="center">
-  <img src="./profile/tech-stack.svg" alt="Tech stack" width="900" />
+  <img src="./Profile/tech-stack.svg" alt="Tech stack" width="900" />
 </p>
 
 <!-- ─────────────────────────  GITHUB STATS  ───────────────────────── -->
@@ -46,5 +46,5 @@ My focus is reliability: evaluation loops that catch bad outputs, self-correctio
 <!-- ─────────────────────────  FOOTER  ───────────────────────── -->
 
 <p align="center">
-  <img src="./profile/footer.svg" alt="" width="900" />
+  <img src="./Profile/footer.svg" alt="" width="900" />
 </p>
