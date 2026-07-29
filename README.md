@@ -1,7 +1,7 @@
 <!-- ─────────────────────────  HERO  ───────────────────────── -->
 
 <p align="center">
-  <img src="./profile/hero.svg" alt="Nanda Gopal D. — agent orchestration console" width="900" />
+  <img src="./Profile/hero.svg" alt="Nanda Gopal D. — agent orchestration console" width="900" />
 </p>
 
 <!-- ─────────────────────────  ABOUT  ───────────────────────── -->
@@ -13,32 +13,32 @@ I care less about "does it work in the notebook" and more about "does it survive
 <!-- ─────────────────────────  CURRENTLY BUILDING  ───────────────────────── -->
 
 <p align="center">
-  <img src="./profile/currently.svg" alt="Currently building" width="900" />
+  <img src="./Profile/currently.svg" alt="Currently building" width="900" />
 </p>
 
 <!-- ─────────────────────────  TECH STACK  ───────────────────────── -->
 
 <p align="center">
-  <img src="./profile/tech-stack.svg" alt="Tech stack" width="900" />
+  <img src="./Profile/tech-stack.svg" alt="Tech stack" width="900" />
 </p>
 
 <!-- ─────────────────────────  GITHUB STATS  ───────────────────────── -->
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_title=true&hide_border=true&bg_color=05070A&title_color=22D3EE&icon_color=3B82F6&text_color=CBD5E1&ring_color=22D3EE" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&bg_color=05070A&title_color=22D3EE&text_color=CBD5E1" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=nandagopalng&show_icons=true&hide_title=true&hide_border=true&bg_color=05070A&title_color=22D3EE&icon_color=3B82F6&text_color=CBD5E1&ring_color=22D3EE" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nandagopalng&layout=compact&hide_border=true&bg_color=05070A&title_color=22D3EE&text_color=CBD5E1" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&background=05070A&border=182233&stroke=182233&ring=22D3EE&fire=3B82F6&currStreakNum=E7EDF6&sideNums=E7EDF6&currStreakLabel=22D3EE&sideLabels=8592AB&dates=56637A&hide_border=false" />
+  <img src="https://streak-stats.demolab.com?user=nandagopalng&background=05070A&border=182233&stroke=182233&ring=22D3EE&fire=3B82F6&currStreakNum=E7EDF6&sideNums=E7EDF6&currStreakLabel=22D3EE&sideLabels=8592AB&dates=56637A&hide_border=false" />
 </p>
 
 <!-- ─────────────────────────  CONNECT  ───────────────────────── -->
 
 <p align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-05070A?style=for-the-badge&logo=github&logoColor=E7EDF6"></a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-05070A?style=for-the-badge&logo=linkedin&logoColor=22D3EE"></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-05070A?style=for-the-badge&logo=gmail&logoColor=3B82F6"></a>
+  <a href="https://github.com/nandagopalng"><img src="https://img.shields.io/badge/GitHub-05070A?style=for-the-badge&logo=github&logoColor=E7EDF6"></a>
+  <a href="[https://linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/nanda-gopal-d-1b623229b/)"><img src="https://img.shields.io/badge/LinkedIn-05070A?style=for-the-badge&logo=linkedin&logoColor=22D3EE"></a>
+  <a href="mailto:nandagopalng2004@gmail.com"><img src="https://img.shields.io/badge/Email-05070A?style=for-the-badge&logo=gmail&logoColor=3B82F6"></a>
 </p>
 
 <p align="center"><sub>Open to AI/ML engineering internships and new-grad roles.</sub></p>
