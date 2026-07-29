@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="900" height="90"
+     font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" role="img"
+     aria-label="Footer">
+  <defs>
+    <linearGradient id="flow3" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="840" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-size: 12.5px; fill: #56637a; }
+    .cur { animation: blink 1s step-end infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cur { animation: none !important; } }
+  </style>
+  <rect x="60" y="20" width="780" height="1.5" fill="url(#flow3)"/>
+  <text x="450" y="56" text-anchor="middle">$ exit — thanks for reading the source<tspan class="cur" fill="#22d3ee">_</tspan></text>
+</svg>
