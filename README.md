@@ -48,3 +48,7 @@ My focus is reliability: evaluation loops that catch bad outputs, self-correctio
 <p align="center">
   <img src="./Profile/footer.svg" alt="" width="900" />
 </p>
+
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=nandagopalng&"  />
+</div>
